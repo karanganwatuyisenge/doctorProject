@@ -51,6 +51,16 @@ margin-right:-10px;
 <title>Insert title here</title>
 </head>
 <body>
+<%
+response.setHeader("cache-control","no-cahe,no-store,must-revalidate");
+response.setHeader("Progma","no-cache");
+response.setHeader("Expires","0");
+
+if(session.getAttribute("username")==null)
+{
+	response.sendRedirect("DoctorLogin.jsp");
+	}
+%>
 <div class="header">
 <div class="title">Online Appointment Doctor</div>
 <div class="menu">

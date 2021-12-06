@@ -181,8 +181,8 @@ form .user-details .input-box{
             <input type="text" placeholder="Enter your nationality" name="nationality"  required>
           </div>
             <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1" value="gender" required>
-          <input type="radio" name="gender" id="dot-2" value="gender" required>
+          <input type="radio" name="gender" id="dot-1" value="Male" required>
+          <input type="radio" name="gender" id="dot-2" value="Female" required>
           <span class="gender-title">Gender</span>
           <div class="category">
             <label for="dot-1">

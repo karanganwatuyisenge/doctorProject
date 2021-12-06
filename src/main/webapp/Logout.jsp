@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <form action="LogoutDoctorServlet" method="POST">
 <input type="submit" value="Logout">
 </form>

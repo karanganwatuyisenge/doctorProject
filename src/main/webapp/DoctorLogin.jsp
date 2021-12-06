@@ -226,13 +226,13 @@ form .btn input[type="submit"]{
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
-   <div class="header">
+ <div class="header">
 <div class="title">Online Appointment Doctor</div>
 <div class="menu">
 <ul>
 <li><a href="Homepage.jsp">Home</a></li>
 <li><a href="DoctorLogin.jsp">Doctor</a></li>
-<li><a href="LoginPatient.jsp">Patient</a></li>
+<li><a href="PatientRegister.jsp">Patient</a></li>
 <li><a href="Login.jsp">Admin</a></li>
 <li>
 <form action="Logout" method="POST">

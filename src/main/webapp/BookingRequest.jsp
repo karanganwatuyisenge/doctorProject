@@ -75,7 +75,6 @@ if(session.getAttribute("username")==null)
 	response.sendRedirect("DoctorLogin.jsp");
 	}
 %>
-Dear ${username},welcome to secure page.......<br>
 <div class="header">
 <div class="title">Online Appointment Doctor</div>
 <div class="menu">

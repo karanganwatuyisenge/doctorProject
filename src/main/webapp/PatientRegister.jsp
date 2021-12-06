@@ -179,8 +179,8 @@ form .user-details .input-box{
             <input type="text" placeholder="Enter your age" name="age"required>
           </div>
             <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1" value="gender">
-          <input type="radio" name="gender" id="dot-2" value="gender">
+          <input type="radio" name="gender" id="dot-1" value="male">
+          <input type="radio" name="gender" id="dot-2" value="female">
           <span class="gender-title">Gender</span>
           <div class="category">
             <label for="dot-1">
@@ -211,7 +211,7 @@ form .user-details .input-box{
         <div class="button">
           <input type="submit" value="Register Now">
           <a href="#"></a>
-          <a href="LoginPatient.jsp">Click here to go back</a>
+          <a href="Homepage.jsp">Click here to go back</a>
         </div>
         
       </form>
